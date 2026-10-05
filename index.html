@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shivam Kumar Rai | Data Analyst</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 8%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 8%;
+            background: #e8f0fe;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #2563eb;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+    background: white;
+    padding: 20px 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.10);
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid #e5e7eb;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+       .project {
+    background: white;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.10);
+    border: 1px solid #e5e7eb;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-7px);
+}
+
+        .project h3 {
+            margin-bottom: 12px;
+            color: #2563eb;
+        }
+
+        .project p {
+            margin-bottom: 18px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>Shivam Kumar Rai</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <h1>Hi, I'm <span>Shivam Kumar Rai</span></h1>
+
+        <p>
+            Aspiring Data Analyst | Excel | Power BI | SQL | Python
+        </p>
+
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="https://github.com/shivam-rai6206"
+   target="_blank"
+   class="btn">
+    GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/shivam-kumar-rai-5a299a43b"
+   target="_blank"
+   class="btn">
+    LinkedIn
+</a>
+
+        <a href="Shivam_Kumar_Rai_Data_Analyst_CV_Modified.docx"
+           target="_blank"
+           class="btn">
+            View Resume
+        </a>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about">
+       <p>
+    I am an aspiring Data Analyst with hands-on experience in
+    Excel and Power BI projects. I enjoy cleaning data, creating
+    dashboards, analyzing business performance and turning raw
+    data into useful insights. I am continuously improving my
+    skills in SQL, Python and data visualization.
+</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Excel</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Python</div>
+        <div class="skill">Data Cleaning</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Pivot Tables</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>E-Commerce Sales Analysis</h3>
+
+            <p>
+    Analyzed 21.63M total sales and 4.67M total profit using
+    Excel, data cleaning and Pivot Tables. Identified Electronics
+    as the top-selling category, North as the top sales region,
+    and UPI as the leading payment method.
+</p>
+<a href="data analiys sales  project.xlsx"
+   download
+   class="btn">
+    Download Excel Project
+</a>
+        </div>
+
+        <div class="project">
+            <h3>Power BI Sales Dashboard</h3>
+
+           <p>
+    Created an interactive Power BI sales dashboard to visualize
+    sales performance, profit, regional trends and key business
+    metrics using interactive Power BI visuals.
+</p>
+           <a href="ECommerce sales project.pbix"
+   download
+   class="btn">
+    Download Power BI
+</a>
+        </div>
+
+        <div class="project">
+            <h3>Customer Churn Analysis</h3>
+
+            <p>
+                Customer churn and retention analysis project using
+                data cleaning, analysis and visualization.
+            </p>
+
+            <a href="#" class="btn">
+                Coming Soon
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:rajshivambkp2005@gmail.com">
+            rajshivambkp2005@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.linkedin.com/in/shivam-kumar-rai-5a299a43b"
+           target="_blank"
+           class="btn">
+            LinkedIn
+        </a>
+    </p>
+
+    <p>
+        <a href="https://github.com/shivam-rai6206"
+           target="_blank"
+           class="btn">
+            GitHub
+        </a>
+    </p>
+
+</div>
+</section>
+
+<footer>
+    <p>
+        © 2026 Shivam Kumar Rai | Data Analyst Portfolio
+    </p>
+</footer>
+
+</body>
+</html>
